@@ -1,6 +1,6 @@
 --- context ---
 summary: ruby -e "puts Gem::Specification.load('rspec-let_as.gemspec').summary"
-example: cat spec/rspec/example_spec.rb
+example: cat spec/example_spec.rb
 
 --- template ---
 # RSpec::LetAs
