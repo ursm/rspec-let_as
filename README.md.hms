@@ -23,7 +23,7 @@ end
 
 ## Motivation
 
-When testing Rails applications with RSpec, I am often faced with the need to arrange large object graph. And since I also need to be able to access specific nodes in the graph, I have to create edges one by one.
+When testing a Rails application with RSpec, I am often faced with the need to arrange large object graph. And since I also need to be able to access specific nodes in the graph, I have to create edges one by one.
 
 ``` ruby
 RSpec.describe MyApp do

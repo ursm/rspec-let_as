@@ -14,7 +14,7 @@ module RSpec
         }
 
         raise Error, <<~EOS unless example_group
-          must be called from an example group or from within:
+          `let_as` must be called from an example group (describe / context) or its inner block.
 
               RSpec.describe 'answer' do
                 before do
